@@ -1,0 +1,50 @@
+UNBET PRIVACY POLICY
+
+Last Updated: December 2024
+
+INTRODUCTION
+Welcome to Unbet, a mobile application designed to support individuals in their journey toward addiction recovery. At Unbet, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, store, and protect your data when you use our mobile application and related services.
+
+By using Unbet, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with our policies and practices, please do not use our application.
+
+INFORMATION WE COLLECT
+2.1 Personal Information
+We may collect the following types of personal information:
+• Account information (username, email address, password)
+• Profile information (age, gender, recovery goals, preferences)
+• Progress tracking data (sobriety milestones, check-ins, journal entries)
+• Communication data (messages with support groups, counselor interactions)
+• Device information (device type, operating system, unique device identifiers)
+
+2.2 Usage Data
+We automatically collect information about how you use our app:
+• App usage patterns and frequency
+• Features accessed and time spent in app
+• Crash reports and performance data
+• Location data (only if explicitly permitted for meeting finder features)
+
+2.3 Health and Recovery Data
+With your explicit consent, we may collect:
+• Recovery progress information
+• Mood tracking data
+• Trigger identification information
+• Relapse prevention strategies
+• Anonymous survey responses for research purposes
+
+HOW WE USE YOUR INFORMATION
+We use your information to:
+• Provide and maintain our recovery support services
+• Personalize your recovery experience and recommendations
+• Track your progress and provide motivational content
+• Connect you with appropriate support resources
+• Improve our app functionality and user experience
+• Communicate important updates and recovery tips
+• Conduct research to improve addiction recovery methods (anonymized data only)
+• Ensure app security and prevent misuse
+
+DATA STORAGE AND SECURITY
+4.1 Data Storage
+• Your data is stored on secure, encrypted servers located in the United States
+• We use industry-standard encryption both in transit and at rest
+• Sensitive health information is stored separately with additional security measures
+• Data backups are [CONTENT TRUNCATED]
