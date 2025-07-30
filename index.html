@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unbet - #1 Life reset app</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts - DM Sans and DM Serif -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <!-- Header Navigation Bar -->
+    <header class="w-full bg-black py-4 px-10 sm:px-4">
+        <nav class="flex justify-between items-center relative">
+            <!-- Empty div for flex spacing -->
+            <div class="flex-1"></div>
+            
+            <!-- Center Navigation Link -->
+            <div class="absolute left-1/2 transform -translate-x-1/2">
+                <a href="#" class="text-white text-base font-bold hover:text-[#dfb644] transition-colors cursor-pointer">Home</a>
+            </div>
+            
+            <!-- Right CTA Button -->
+            <button class="bg-white text-black text-base font-bold py-2 px-5 rounded-lg hover:bg-gray-200 transition-colors">
+                Get the App
+            </button>
+        </nav>
+    </header>
+    
+    <!-- Main Hero Section -->
+    <main class="flex flex-col items-center min-h-[80vh] py-10 px-5">
+        <!-- Logo - Just "Unbet" text (smaller and at top) -->
+        <div class="text-center mt-8 mb-12">
+            <span class="text-[#dfb644] text-5xl md:text-6xl" style="font-family: 'DM Serif Display', serif;">Unbet</span>
+        </div>
+        
+        <!-- Content wrapper for vertical centering -->
+        <div class="flex-1 flex flex-col justify-center items-center">
+            <!-- Tagline -->
+            <h1 class="text-2xl md:text-3xl font-bold text-center">
+                <span class="text-white">#1 Life reset app to</span>
+                <span class="text-[#dfb644]">get your sh*t together</span>
+            </h1>
+        
+            <!-- Installs and Rating Section with Leaf Design -->
+            <div class="flex items-center justify-center mt-4 gap-6">
+                <!-- Left Leaf Branch -->
+                <svg width="40" height="60" viewBox="0 0 40 60" fill="none" class="text-gray-500">
+                    <path d="M35 5 Q20 15 20 30 Q20 45 35 55" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    <path d="M32 10 Q25 15 28 20" stroke="currentColor" stroke-width="1" fill="none"/>
+                    <path d="M32 50 Q25 45 28 40" stroke="currentColor" stroke-width="1" fill="none"/>
+                    <path d="M30 20 Q23 25 26 30" stroke="currentColor" stroke-width="1" fill="none"/>
+                    <path d="M30 40 Q23 35 26 30" stroke="currentColor" stroke-width="1" fill="none"/>
+                </svg>
+                
+                <!-- Content -->
+                <div class="flex flex-col items-center">
+                    <!-- Installs Stat -->
+                    <p class="text-white text-lg font-bold text-center">
+                        500,000+ Installs
+                    </p>
+                    
+                    <!-- Rating Section -->
+                    <div class="flex items-center justify-center mt-1 gap-0.5">
+                        <!-- Stars using Unicode characters -->
+                        <span class="text-[#FFD700] text-xl">★</span>
+                        <span class="text-[#FFD700] text-xl">★</span>
+                        <span class="text-[#FFD700] text-xl">★</span>
+                        <span class="text-[#FFD700] text-xl">★</span>
+                        <span class="text-[#FFD700] text-xl relative">
+                            <span class="absolute inset-0 overflow-hidden w-1/2">★</span>
+                            <span class="text-gray-400">★</span>
+                        </span>
+                        <!-- Rating number -->
+                        <span class="text-white text-lg font-medium ml-1">4.7</span>
+                    </div>
+                </div>
+                
+                <!-- Right Leaf Branch -->
+                <svg width="40" height="60" viewBox="0 0 40 60" fill="none" class="text-gray-500">
+                    <path d="M5 5 Q20 15 20 30 Q20 45 5 55" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    <path d="M8 10 Q15 15 12 20" stroke="currentColor" stroke-width="1" fill="none"/>
+                    <path d="M8 50 Q15 45 12 40" stroke="currentColor" stroke-width="1" fill="none"/>
+                    <path d="M10 20 Q17 25 14 30" stroke="currentColor" stroke-width="1" fill="none"/>
+                    <path d="M10 40 Q17 35 14 30" stroke="currentColor" stroke-width="1" fill="none"/>
+                </svg>
+            </div>
+        
+            <!-- Phone Mockup - Empty iPhone -->
+            <div class="mt-10 relative flex justify-center">
+                <!-- iPhone Frame with tilt -->
+                <div class="w-64 h-[550px] relative transform rotate-6 transition-transform hover:rotate-3">
+                    <!-- Phone outer frame -->
+                    <div class="absolute inset-0 bg-gray-900 rounded-[2.5rem] shadow-2xl"></div>
+                    <!-- Phone inner frame -->
+                    <div class="absolute inset-[2px] bg-black rounded-[2.3rem]"></div>
+                    <!-- Phone screen -->
+                    <div class="absolute top-[15px] left-[15px] right-[15px] bottom-[15px] bg-white rounded-[2rem] overflow-hidden">
+                        <!-- Notch -->
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-black rounded-b-xl"></div>
+                        <!-- Screen content (empty for now) -->
+                        <div class="w-full h-full flex items-center justify-center">
+                            <p class="text-gray-400 text-sm">App Screen</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Download Buttons -->
+            <div class="flex flex-row justify-center mt-8 gap-4">
+                <!-- App Store Button -->
+                <a href="#" class="inline-block">
+                    <svg viewBox="0 0 135 40" class="h-14 md:h-16">
+                        <rect width="135" height="40" rx="8" fill="white"/>
+                        <rect width="135" height="40" rx="8" stroke="black" stroke-width="0.5" fill="none"/>
+                        <g transform="translate(8, 7)">
+                            <path fill="black" d="M21.17 19.27c-.03-3.22 2.64-4.78 2.76-4.86-1.5-2.2-3.84-2.5-4.67-2.53-1.98-.2-3.87 1.17-4.88 1.17-1 0-2.56-1.14-4.21-1.11-2.17.03-4.16 1.26-5.28 3.21-2.25 3.92-.58 9.72 1.62 12.9 1.08 1.56 2.36 3.3 4.04 3.24 1.62-.07 2.24-1.05 4.2-1.05 1.96 0 2.52 1.05 4.23 1.02 1.75-.03 2.85-1.59 3.92-3.15 1.23-1.81 1.74-3.56 1.77-3.65-.04-.02-3.4-1.31-3.43-5.19zM18.07 7.57c.89-1.08 1.5-2.57 1.33-4.07-1.29.05-2.85.86-3.77 1.95-.83.96-1.55 2.5-1.36 3.97 1.44.11 2.9-.73 3.8-1.85z"/>
+                        </g>
+                        <text x="40" y="17" fill="black" font-size="10" font-family="DM Sans, sans-serif">Download on the</text>
+                        <text x="40" y="28" fill="black" font-size="14" font-family="DM Sans, sans-serif" font-weight="600">App Store</text>
+                    </svg>
+                </a>
+                
+                <!-- Google Play Button -->
+                <a href="#" class="inline-block hidden">
+                    <svg viewBox="0 0 135 40" class="h-14 md:h-16">
+                        <rect width="135" height="40" rx="8" fill="black"/>
+                        <rect width="135" height="40" rx="8" stroke="white" stroke-width="0.5" fill="none"/>
+                        <g transform="translate(8, 7)">
+                            <path fill="url(#play-gradient-1)" d="M1.4 0.2c-.4.2-.7.6-.7 1.4v18.8c0 .8.3 1.2.7 1.4l.1.1L11.9 11.5v-.1L1.4.2z"/>
+                            <path fill="url(#play-gradient-2)" d="M15.6 15.3l-3.7-3.7v-.1l3.7-3.7.1.1 4.4 2.5c1.3.7 1.3 1.9 0 2.6l-4.4 2.5-.1-.2z"/>
+                            <path fill="url(#play-gradient-3)" d="M15.7 15.4l-3.8-3.8L1.4 22c.4.4 1.1.5 1.9.1l12.4-7z"/>
+                            <path fill="url(#play-gradient-4)" d="M15.7 7.6L3.3.6C2.5.2 1.8.2 1.4.6l10.5 10.5 3.8-3.5z"/>
+                        </g>
+                        <defs>
+                            <linearGradient id="play-gradient-1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#00e0ff"/>
+                                <stop offset="100%" stop-color="#00a8ff"/>
+                            </linearGradient>
+                            <linearGradient id="play-gradient-2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#ffd900"/>
+                                <stop offset="100%" stop-color="#ffaa00"/>
+                            </linearGradient>
+                            <linearGradient id="play-gradient-3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ff4545"/>
+                                <stop offset="100%" stop-color="#c31162"/>
+                            </linearGradient>
+                            <linearGradient id="play-gradient-4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#44d362"/>
+                                <stop offset="100%" stop-color="#1b9c5e"/>
+                            </linearGradient>
+                        </defs>
+                        <text x="42" y="17" fill="white" font-size="10" font-family="DM Sans, sans-serif">GET IT ON</text>
+                        <text x="42" y="28" fill="white" font-size="14" font-family="DM Sans, sans-serif" font-weight="600">Google Play</text>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="w-full bg-[#1A1A1A] py-4 px-10 sm:px-4 mt-10">
+        <div class="flex justify-between items-center text-sm text-white">
+            <!-- Left Copyright -->
+            <p class="font-normal">©2025 built by • Design + Build</p>
+            
+            <!-- Right Links -->
+            <div class="flex space-x-4">
+                <a href="https://docs.google.com/document/d/1WG6LWU2OgZxQfFTVb5oowhGUbQGtUTcFF-yRT3hxT0U/edit?usp=sharing" 
+                   class="hover:text-[#dfb644] transition-colors">Support</a>
+                <span class="hidden">|</span>
+                <a href="#" class="hover:text-[#dfb644] transition-colors hidden">Instagram</a>
+                <span class="hidden">|</span>
+                <a href="#" class="hover:text-[#dfb644] transition-colors hidden">TikTok</a>
+                <span>|</span>
+                <a href="https://docs.google.com/document/d/13vK_JeMWxeab7b8casvcot2wdWvWL7SNVybPWh4P9Yw/edit?usp=sharing" 
+                   class="hover:text-[#dfb644] transition-colors">Privacy & Terms</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
