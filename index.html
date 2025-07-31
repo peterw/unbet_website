@@ -19,42 +19,37 @@
 </head>
 <body class="bg-black text-white">
     <!-- Header Navigation Bar -->
-    <header class="w-full bg-black py-6 px-10 sm:px-6">
+    <header class="w-full bg-black py-4 md:py-6 px-4 sm:px-6 md:px-10">
         <nav class="flex justify-between items-center relative">
             <!-- Empty div for flex spacing -->
             <div class="flex-1"></div>
             
-            <!-- Center Navigation Link -->
-            <div class="absolute left-1/2 transform -translate-x-1/2">
-                <a href="#" class="text-white text-xl md:text-2xl font-bold hover:text-[#dfb644] transition-colors cursor-pointer">Home</a>
-            </div>
-            
             <!-- Right CTA Button -->
-            <button class="bg-white text-black text-lg font-bold py-3 px-6 rounded-xl hover:bg-gray-200 transition-colors">
+            <button class="bg-white text-black text-sm md:text-lg font-bold py-2 md:py-3 px-4 md:px-6 rounded-xl hover:bg-gray-200 transition-colors">
                 Get the App
             </button>
         </nav>
     </header>
     
     <!-- Main Hero Section -->
-    <main class="container mx-auto px-5 md:px-10 py-16 min-h-[85vh]">
+    <main class="container mx-auto px-4 md:px-10 pt-4 md:pt-8 pb-4 min-h-[85vh]">
         <!-- Two Column Layout -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center h-full max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-start h-full max-w-7xl mx-auto">
             <!-- Left Column - Content -->
-            <div class="flex flex-col justify-center">
+            <div class="flex flex-col justify-start items-center lg:items-start pt-4 md:pt-8">
                 <!-- Logo -->
-                <div class="mb-10">
-                    <span class="text-[#dfb644] text-7xl md:text-8xl lg:text-9xl leading-none" style="font-family: 'DM Serif Display', serif;">Unbet</span>
+                <div class="mb-6 md:mb-10 text-center lg:text-left">
+                    <span class="text-[#dfb644] text-7xl sm:text-7xl md:text-7xl lg:text-8xl leading-none" style="font-family: 'DM Serif Display', serif;">Unbet</span>
                 </div>
                 
                 <!-- Tagline -->
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 md:mb-8 leading-tight text-center lg:text-left">
                     <span class="text-white">#1 Life reset <span class="whitespace-nowrap">app to</span></span><br>
                     <span class="text-[#dfb644]">get your sh*t together</span>
                 </h1>
                 
                 <!-- Installs and Rating with Decorative Parenthesis -->
-                <div class="flex items-center gap-8 mb-6">
+                <div class="flex items-center gap-4 sm:gap-6 md:gap-8 mb-6">
                     <!-- Left Decorative Element -->
                     <svg width="35" height="90" viewBox="0 0 35 90" fill="none" class="text-gray-600">
                         <path d="M30 10 Q12 22 12 45 Q12 68 30 80" stroke="currentColor" stroke-width="2" fill="none"/>
@@ -67,23 +62,23 @@
                     <!-- Content -->
                     <div class="flex flex-col items-center">
                         <!-- Installs -->
-                        <p class="text-white text-2xl md:text-3xl font-semibold mb-2">
+                        <p class="text-white text-lg sm:text-xl md:text-2xl font-semibold mb-1">
                             500,000+ Installs
                         </p>
                         
                         <!-- Rating -->
                         <div class="flex items-center gap-1">
                             <!-- Stars -->
-                            <span class="text-[#FFD700] text-2xl md:text-3xl">★</span>
-                            <span class="text-[#FFD700] text-2xl md:text-3xl">★</span>
-                            <span class="text-[#FFD700] text-2xl md:text-3xl">★</span>
-                            <span class="text-[#FFD700] text-2xl md:text-3xl">★</span>
-                            <span class="text-2xl md:text-3xl relative">
+                            <span class="text-[#FFD700] text-lg sm:text-xl md:text-2xl">★</span>
+                            <span class="text-[#FFD700] text-lg sm:text-xl md:text-2xl">★</span>
+                            <span class="text-[#FFD700] text-lg sm:text-xl md:text-2xl">★</span>
+                            <span class="text-[#FFD700] text-lg sm:text-xl md:text-2xl">★</span>
+                            <span class="text-lg sm:text-xl md:text-2xl relative">
                                 <span class="text-[#FFD700] absolute inset-0 overflow-hidden" style="width: 70%;">★</span>
                                 <span class="text-gray-600">★</span>
                             </span>
                             <!-- Rating number -->
-                            <span class="text-white text-xl md:text-2xl font-medium ml-2">4.7</span>
+                            <span class="text-white text-base sm:text-lg md:text-xl font-medium ml-2">4.7</span>
                         </div>
                     </div>
                     
@@ -96,16 +91,31 @@
                         <path d="M11 56 Q19 48 16 40" stroke="currentColor" stroke-width="1.5" fill="none"/>
                     </svg>
                 </div>
+                
+                <!-- App Store Button -->
+                <div class="mt-8 md:mt-12">
+                    <a href="#" class="inline-block">
+                        <svg viewBox="0 0 135 40" class="h-16 sm:h-16 md:h-16 lg:h-16">
+                            <rect width="135" height="40" rx="8" fill="white"/>
+                            <rect width="135" height="40" rx="8" stroke="black" stroke-width="0.5" fill="none"/>
+                            <g transform="translate(8, 2)">
+                                <path fill="black" d="M21.17 19.27c-.03-3.22 2.64-4.78 2.76-4.86-1.5-2.2-3.84-2.5-4.67-2.53-1.98-.2-3.87 1.17-4.88 1.17-1 0-2.56-1.14-4.21-1.11-2.17.03-4.16 1.26-5.28 3.21-2.25 3.92-.58 9.72 1.62 12.9 1.08 1.56 2.36 3.3 4.04 3.24 1.62-.07 2.24-1.05 4.2-1.05 1.96 0 2.52 1.05 4.23 1.02 1.75-.03 2.85-1.59 3.92-3.15 1.23-1.81 1.74-3.56 1.77-3.65-.04-.02-3.4-1.31-3.43-5.19zM18.07 7.57c.89-1.08 1.5-2.57 1.33-4.07-1.29.05-2.85.86-3.77 1.95-.83.96-1.55 2.5-1.36 3.97 1.44.11 2.9-.73 3.8-1.85z"/>
+                            </g>
+                            <text x="40" y="17" fill="black" font-size="10" font-family="DM Sans, sans-serif">Download on the</text>
+                            <text x="40" y="28" fill="black" font-size="14" font-family="DM Sans, sans-serif" font-weight="600">App Store</text>
+                        </svg>
+                    </a>
+                </div>
             </div>
             
             <!-- Right Column - Phone and Download Button -->
-            <div class="flex flex-col items-center justify-center">
-                <!-- App Store Button -->
-                <a href="#" class="inline-block mb-10">
-                    <svg viewBox="0 0 135 40" class="h-16 md:h-20">
+            <div class="flex flex-col items-center justify-center mt-8 lg:mt-0">
+                <!-- App Store Button (Desktop only) -->
+                <a href="#" class="hidden lg:inline-block mb-10">
+                    <svg viewBox="0 0 135 40" class="h-14 md:h-16">
                         <rect width="135" height="40" rx="8" fill="white"/>
                         <rect width="135" height="40" rx="8" stroke="black" stroke-width="0.5" fill="none"/>
-                        <g transform="translate(8, 7)">
+                        <g transform="translate(8, 2)">
                             <path fill="black" d="M21.17 19.27c-.03-3.22 2.64-4.78 2.76-4.86-1.5-2.2-3.84-2.5-4.67-2.53-1.98-.2-3.87 1.17-4.88 1.17-1 0-2.56-1.14-4.21-1.11-2.17.03-4.16 1.26-5.28 3.21-2.25 3.92-.58 9.72 1.62 12.9 1.08 1.56 2.36 3.3 4.04 3.24 1.62-.07 2.24-1.05 4.2-1.05 1.96 0 2.52 1.05 4.23 1.02 1.75-.03 2.85-1.59 3.92-3.15 1.23-1.81 1.74-3.56 1.77-3.65-.04-.02-3.4-1.31-3.43-5.19zM18.07 7.57c.89-1.08 1.5-2.57 1.33-4.07-1.29.05-2.85.86-3.77 1.95-.83.96-1.55 2.5-1.36 3.97 1.44.11 2.9-.73 3.8-1.85z"/>
                         </g>
                         <text x="40" y="17" fill="black" font-size="10" font-family="DM Sans, sans-serif">Download on the</text>
@@ -115,7 +125,7 @@
                 
                 <!-- Phone Mockup -->
                 <div class="relative">
-                    <div class="w-80 md:w-96 h-[650px] md:h-[750px] relative transform rotate-6 transition-transform hover:rotate-3">
+                    <div class="w-48 sm:w-56 md:w-64 h-[400px] sm:h-[460px] md:h-[520px] relative transform rotate-6 transition-transform hover:rotate-3">
                         <!-- Phone outer frame -->
                         <div class="absolute inset-0 bg-gray-900 rounded-[2.5rem] shadow-2xl"></div>
                         <!-- Phone inner frame -->
@@ -136,22 +146,22 @@
     </main>
     
     <!-- Footer -->
-    <footer class="w-full bg-[#1A1A1A] py-6 px-10 sm:px-6 mt-10">
-        <div class="flex justify-between items-center text-base md:text-lg text-white">
+    <footer class="w-full bg-[#1A1A1A] py-3 md:py-4 px-4 sm:px-6 md:px-10 mt-0">
+        <div class="flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0 text-xs sm:text-sm md:text-base text-white">
             <!-- Left Copyright -->
-            <p class="font-normal text-base md:text-lg">©2025 built by • Design + Build</p>
+            <p class="font-normal text-xs sm:text-sm md:text-base">©2025 built by • Unbet</p>
             
             <!-- Right Links -->
-            <div class="flex space-x-6">
+            <div class="flex space-x-4 sm:space-x-6">
                 <a href="support.html" 
-                   class="hover:text-[#dfb644] transition-colors text-base md:text-lg">Support</a>
+                   class="hover:text-[#dfb644] transition-colors text-xs sm:text-sm md:text-base">Support</a>
                 <span class="hidden">|</span>
                 <a href="#" class="hover:text-[#dfb644] transition-colors hidden">Instagram</a>
                 <span class="hidden">|</span>
                 <a href="#" class="hover:text-[#dfb644] transition-colors hidden">TikTok</a>
                 <span>|</span>
                 <a href="privacy.html" 
-                   class="hover:text-[#dfb644] transition-colors text-base md:text-lg">Privacy & Terms</a>
+                   class="hover:text-[#dfb644] transition-colors text-xs sm:text-sm md:text-base">Privacy & Terms</a>
             </div>
         </div>
     </footer>
